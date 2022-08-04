@@ -3,7 +3,7 @@ window.onload = () => {
 }
 
 function main() {
-  const bodyColorChange = document.querySelector("body");
+  const bodyColorChange = document.querySelector("#container");
   const colorChangeBtn = document.querySelector("#btn");
 
   colorChangeBtn.addEventListener("click", function () {
